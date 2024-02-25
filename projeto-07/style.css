@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-family: "Mulish";
+  background-color: white;
+}
+main{
+  background-color: #F5F5F5;
+  padding: 3.6rem 11.2rem;
+}
+ul{
+  display: flex;
+  gap: 7.5rem;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+nav{
+  padding: 1.6rem 11.2rem 1.6rem;
+  max-width: 233.6rem;
+}
+li input{
+  width: 71.8rem;
+}
+.wrapper-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2.0rem;
+  row-gap: 2.0rem;
+  
+}
+main h1{
+  padding: 0 0 3.6rem ;
+}
+.card{
+  border-radius: 0.8rem;
+  width: 39.0rem;
+  background-color: white;
+}
+.card img{
+  width: 39.0rem;
+}
+.card h2{
+  margin: 2.2rem;
+}
+.card p{
+  margin: 0 2.2rem 2.2rem;
+  background-color: #F5F5F5;
+  width: 3rem;
+  text-align: center;
+  padding: 1px;
+}
+.user img{
+  border-radius: 100%;
+  max-width: 4.0rem;
+}
+footer{
+  text-align: center;
+  margin: 1.6rem 0;
+}

@@ -32,6 +32,9 @@ header p{
   column-gap: 8.2rem;
   row-gap: 4.4rem;
  }
+ ul{
+  list-style-type: none;
+ }
 .wrapper-content h2{
   margin-top: 1.0rem;
   color: #E1E1E6;
