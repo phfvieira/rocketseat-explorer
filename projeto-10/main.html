@@ -2,36 +2,56 @@
 <html lang="en">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-  </style>
 
-  <title>Biscoito da sorte</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./js/script.js" defer type="module"></script>i
+  <title>Calculadora IMC</title>
 </head>
 
 <body>
-  <main>
-    <div class="screen1 ">
-      <h1>Qual é a sua sorte de hoje?</h1>
-      <p>abra o biscoito e descubra!</p>
-      <img id="biscuit" src="assets/fortune-cookie.png" alt="imagem de biscoito da sorte">
+  <div class="container">
+    <main>
+      <div class="screen1 card">
+        <h1 class="title">Cálculo do IMC</h1>
+        <form>
+          <div class="wrapperInput">
+            <label for="weight">Peso (kg)</label>
+            <input type="text" name="weight" placeholder="60" id="weight">
+          </div>
+
+          <div class="wrapperInput">
+            <label for="height">Altura (cm)</label>
+            <input type="text" name="height" placeholder="165" id="height">
+          </div>
+
+
+          <button class="calculator">Calcular IMC</button>
+        </form>
+      </div>
+    </main>
+  </div>
+  <div class="modalWrapper ">
+    <div class="modal card">
+      <button class="buttonClosed"> <img src="Vector.png" alt="X"></button>
+      <h2 class="title">
+        <span>Seu IMC é de</span>
+      </h2>
+
     </div>
-    <div class="screen2 hide">
+  </div>
+  <div class="alert">
+    <p>digite somente números</p>
+  </div>
 
-      <h1>Aqui está sua sorte de hoje:</h1>
-      <p>Se a vida der as costas para você passe a mão na bunda dela</p>
 
-      <img src="assets/opened-cookie.png" alt="imagem de biscoito da sorte" />
-      <div><button id="again">Abrir outro biscoito</button></div>
-
-  </main>
-  <script src="script.js"></script>
 </body>
 
 </html>
