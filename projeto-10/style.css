@@ -158,8 +158,13 @@ body, input, button{
   opacity: 0;
   transform: translateY(-30px);
   transition: transform .5s;
+
+}
+.alert p{
+  font-size: 1.6rem;
 }
 .alert.open{
   visibility: visible;
   opacity: 1;
+  transform: translateY(0);
 }

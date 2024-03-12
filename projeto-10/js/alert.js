@@ -1,8 +1,11 @@
-const Alert = {
+
+
+export const Alert = {
+  element: document.querySelector('.alert'),
   open() {
-    alertError.classList.add('open')
+    Alert.element.classList.add('open')
   },
   close() {
-    alertError.classList.remove('open')
+    Alert.element.classList.remove('open')
   }
 }
