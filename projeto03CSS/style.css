@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  background-color: #e5e5e5;
+}
+body::before{
+  content: '';
+  background-color: #121214;;
+  width: 100%;
+  height: 360px;
+  position: absolute;
+  z-index: -1;
+}
+.page{
+  width: 736px;
+  margin: auto;
+}
+header{
+  width: 319px;
+  margin-top: 80px;
+}
+header h1{
+  color: white;
+ 
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+header p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #42D3FF;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+form{
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 38px;
+  display: block;
+  background-color: white;
+  padding: 64px;
+  
+}
+fieldset{
+  border: none;
+}
+fieldset + fieldset{
+  margin-top: 48px;
+}
+.title-form{
+  font-size: 24px;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.fieldset-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  color: #4e4958;
+  font-family: 'Poppins';
+}
+input{
+  border-radius: 8px;
+  width: 608px;
+  height: 56px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  border: 1px solid #9c99a0;
+  color: #76737b;
+}
+textarea{
+  border-radius: 8px;
+  width: 608px;
+  height: 200px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  border: 1px solid #9c99a0;
+  color: #76737b;
+}
+select{
+  border-radius: 8px;
+  width: 608px;
+  height: 56px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  border: 1px solid #9c99a0;
+  color: #76737b;
+  appearance: none;
+}
+.input-wrapper span{
+  color: #76737b;
+  margin-left: 12px;
+}
+.input-wrapper-date{
+  color: #4e4958;
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: row;
+}
+#date{
+  width: 312px;
+  text-decoration: none;
+}
+#start{
+  width: 128px;
+
+}
+#end{
+  width: 128px;
+}
+.checkbox-wrapper{
+  font-family: 'Poppins';
+  color: #4e4958;
+
+}
+.checkbox-wrapper label{
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+.checkbox-wrapper input{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.button{
+  background-color: #04D361;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins';
+}
+.wrapper-button{
+  text-align: center;
+  background-color: #F0F0F4;
+  padding-top: 18px;
+}
+.button:hover{
+  background-color: #1d8a4e;
+}
+input:invalid{
+  border: 2px solid red;
+}

@@ -1,0 +1,41 @@
+
+.main{
+  width: 592px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-yellow{
+  color: #FF9900;
+}
+.text-gray{
+  color: #7D7987;
+}
+.footer{
+  width: 592px;
+  margin: auto;
+  border-top: 1px solid gray;
+  padding-top: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+a + a {
+  margin-left: 40px;
+}
+p{
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 28px;
+}
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+}
